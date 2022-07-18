@@ -19,22 +19,26 @@ function sumOfNumbers(arrayOfNumbers) {
 }
  assignment.sumOfNumbers = sumOfNumbers;
 
-/**
- * Challenge - 2
+
+ /* Challenge - 2
  * 
  * Count all even numbers within an array of numbers.
  * If you did Challenge - 2, remove the comment in the line just after this function
- * 
- * @param {Array} arrayOfNumbers the array containing even or non-even numbers
- * @returns number the count of even numbers
+ 
+@param {Array} arrayOfNumbers the array containing even or non-even numbers
+  @returns number the count of even numbers
  */
-function countEvenNumbers(arrayOfNumbers) {                                        
 
-  const even = arrayOfNumbers.filter(number => {
-    return number % 2 === 0;
-  })
-    return even
+function countEvenNumbers(arrayOfNumbers) {
+  const count = 0;
+  for (let i = 0; i < arrayOfNumbers.lenght; i++) {
+    if (arrayOfNumbers[i] % 2 === 0) {
+      count++;
+    }
+  }
+  return count;
 }
+
  assignment.countEvenNumbers = countEvenNumbers;
 
 /**
