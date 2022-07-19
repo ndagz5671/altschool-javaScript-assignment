@@ -30,8 +30,8 @@ function sumOfNumbers(arrayOfNumbers) {
  */
 
 function countEvenNumbers(arrayOfNumbers) {
-  const count = 0;
-  for (let i = 0; i < arrayOfNumbers.lenght; i++) {
+  let count = 0;
+  for (let i = 0; i < arrayOfNumbers.length; i++) {
     if (arrayOfNumbers[i] % 2 === 0) {
       count++;
     }
